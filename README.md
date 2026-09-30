@@ -20,6 +20,8 @@ A runnable TypeScript application for operational routing, authority control, hu
 
 **Measured results:** 52 passing tests; 0 failed items on each of three seeded 1,000-item control-path evaluations under the published test conditions.
 
+**Demo:** https://youtu.be/GJPaSocJnpc
+
 Event → Classify → Policy → Execute → Verify → Reconcile
 
 ---
@@ -31,6 +33,8 @@ A working workflow-discovery and assessment prototype that turns business conver
 **Demonstrates:** structured discovery · evidence grounding · provenance · readiness gates · deterministic validation · human correction · revision history · finding/recommendation lineage · graceful fallback
 
 **Measured results:** 108 passing tests; reproducible held-out and post-review evaluations with known limitations documented in the repository.
+
+**Demo:** https://youtu.be/ykFrvLkGzrQ
 
 Discover → Clarify → Map → Diagnose → Review → Assess → Recommend
 
