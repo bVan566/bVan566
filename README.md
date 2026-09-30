@@ -14,6 +14,16 @@ My focus is not AI for its own sake. I am interested in systems that make work c
 
 ## Featured Applied AI Case Studies
 
+### [Ilsa: Workflow Assessment](https://github.com/bVan566/ilsa-workflow-assessment)
+
+A working prototype of an AI-assisted workflow discovery and assessment system. Ilsa interviews a business owner one targeted question at a time, maps how work actually moves, separates observed friction from unknowns, and keeps recommendations locked until the workflow is sufficiently understood.
+
+**Demonstrates:** workflow discovery · evidence-grounded assessment · readiness gates · deterministic controls · human correction · recommendation traceability · bounded AI assistance
+
+`Discover → Clarify → Map → Diagnose → Review → Assess → Recommend`
+
+The prototype runs without an API key using a deterministic interpreter, with Claude available as an optional constrained interpreter. The current test suite passes **108/108**, and the repository includes a documented held-out evaluation, post-review regression results, known limitations, and designed failure cases.
+
 ### [AI Operations Situation Model](https://github.com/bVan566/ai-operations-situation-model)
 
 A lightweight operational state model that separates immediate work, upcoming work, external dependencies, human decisions, and monitored conditions.
