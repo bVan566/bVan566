@@ -1,127 +1,114 @@
-# William "Billy" VanVorst
+<a href="https://bvansystems.com"><img src="assets/banner.jpg" alt="bVan! — Organized Chaos. Thinkers, Tinkerers, Troubadours. The bVan! logo over a purple-lit inventor's workshop." width="100%"></a>
 
-### Applied AI Systems & Automation
+## Hey, I'm Billy.
 
-**Founder, [bVan! Systems](https://bvansystems.com)**
+I build things. Some of them are games, some are AI systems that run real work, and some are odd little interactive machines that exist because I wanted to see if they could.
 
-I design practical AI-assisted systems for real-world operations.
+I'm the person behind **[bVan!](https://bvansystems.com)**, a creative and technical workshop for thinkers, tinkerers and troubadours, and **[Raven Six Creative](https://bvansystems.com/ravensix)**, its creative production arm. Before this I spent twenty-plus years keeping real systems running: Black Hawk maintenance, EMS and firefighting, field service and equipment repair. The habit stuck. Find out what's actually going on, then build the thing that fixes it.
 
-My background is in technical troubleshooting, maintenance, service operations, and high-responsibility environments. I approach AI the same way I approach any operational system: understand the problem, identify failure points, define responsibility and authority, build a controlled solution, test it, and improve it.
-
----
-
-## Featured Working Applications
-
-### [Situation Model Demo](https://github.com/bVan566/situation-model-demo)
-
-A runnable TypeScript application for operational routing, authority control, human approval, external-action simulation, and state reconciliation.
-
-**Demonstrates:** TypeScript · SQLite persistence · state transitions · authority boundaries · human-in-the-loop controls · idempotency · reconciliation · fault injection · automated tests · reproducible evaluation
-
-**Measured results:** 52 passing tests; 0 failed items on each of three seeded 1,000-item control-path evaluations under the published test conditions.
-
-**Demo:** https://youtu.be/GJPaSocJnpc
-
-Event → Classify → Policy → Execute → Verify → Reconcile
+What you'll find here: working demos, a game in progress, and a few experiments. Pull up a stool.
 
 ---
 
-### [Ilsa — Workflow Assessment](https://github.com/bVan566/ilsa-workflow-assessment)
+## Featured builds
 
-A working workflow-discovery and assessment prototype that turns business conversations into structured workflow models, evidence-grounded findings, and reviewable recommendations.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/bVan566/megablock-legends-showcase"><img src="assets/megablock-cover.jpg" alt="Megablock Legends development build: a Gunner fights a raider in an isometric maintenance workshop"></a>
 
-**Demonstrates:** structured discovery · evidence grounding · provenance · readiness gates · deterministic validation · human correction · revision history · finding/recommendation lineage · graceful fallback
+### [Megablock Legends](https://github.com/bVan566/megablock-legends-showcase)
+An original isometric action roguelike I'm building in Unity. Take contracts, descend into the Megablocks, fight, loot, and decide when to cash out. The playable prototype has real-time combat, two archetypes (Gunner and Technomage), a safehouse and character progression.
 
-**Measured results:** 108 passing tests; reproducible held-out and post-review evaluations with known limitations documented in the repository.
+**Status:** in development · private playtests · not publicly released
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/bVan566/mo-marketing-operations-showcase"><img src="assets/mo-cover.jpg" alt="Illustration of Mo's marketing loop: plan, check, lock, confirm the account, schedule, read it back, reconcile, with a human gate for strategy, spending and brand decisions"></a>
 
-**Demo:** https://youtu.be/ykFrvLkGzrQ
+### [Mo: AI marketing operations](https://github.com/bVan566/mo-marketing-operations-showcase)
+Three brands, one marketing loop: plan it, make it, check it, schedule it, and confirm it really went out. Mo runs that loop and keeps evidence of every step. Strategy, spending and brand calls still come to me.
 
-Discover → Clarify → Map → Diagnose → Review → Assess → Recommend
+**Status:** in regular internal use · case study (implementation is private)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/bVan566/ilsa-workflow-assessment"><img src="assets/ilsa-cover.jpg" alt="Ilsa running the guided sample: a discovery question on the left and the workflow map filling in on the right"></a>
 
----
+### [Ilsa: workflow assessment](https://github.com/bVan566/ilsa-workflow-assessment)
+"We keep losing customers and I don't know why." Ilsa asks one good question at a time, maps how the work really moves, and only recommends fixes once the process is understood. Every finding points back to the owner's own words.
 
-## Supporting Architecture Case Studies
+**Status:** working prototype · [90-second demo](https://youtu.be/ykFrvLkGzrQ) · 108 tests
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/bVan566/situation-model-demo"><img src="assets/situation-model-cover.jpg" alt="Situation Model board after an approved refund closed: columns NOW, NEXT, WAITING, DECISIONS, WATCHING, CLOSED, with the item details on the right"></a>
 
-### [AI Operations Situation Model](https://github.com/bVan566/ai-operations-situation-model)
+### [Situation Model](https://github.com/bVan566/situation-model-demo)
+How does an automated system know what needs attention, what it's allowed to do, and whether the job actually got done? This demo answers all three, and has a Failure Lab where you can try to break it.
 
-The architecture behind the working Situation Model demo: operational state, routing, authority separation, terminal conditions, and reconciliation.
-
-### [Multi-Agent Operations Architecture](https://github.com/bVan566/multi-agent-operations-architecture)
-
-A role-based architecture for specialized AI components with explicit responsibilities, bounded authority, defined handoffs, shared operational state, and human escalation.
-
-### [Human-in-the-Loop AI Production Pipeline](https://github.com/bVan566/human-in-the-loop-ai-pipeline)
-
-An AI-assisted production architecture combining structured automation with independent QA, human approval gates, external-status verification, and downstream handoffs.
-
----
-
-## What I Work On
-
-- AI-assisted business workflows
-- workflow automation and implementation
-- human-in-the-loop AI
-- operational state and reconciliation
-- role and authority boundaries
-- business-process discovery
-- evidence-grounded AI systems
-- failure handling and graceful degradation
-- testing and evaluation of applied AI workflows
-
----
-
-## How I Think About AI Systems
-
-A useful AI system needs more than a capable model.
-
-It needs clear answers to questions like:
-
-- Who owns the work?
-- What is the AI authorized to do?
-- When does a human need to decide?
-- How does work move between components?
-- How do we know an external action actually succeeded?
-- What makes an item complete?
-- What happens when systems disagree?
-
-My objective is **controlled automation**: use AI where interpretation or generation creates value, and use deterministic software where rules, authority, and reliability matter more.
+**Status:** working demo · [60-second demo](https://youtu.be/GJPaSocJnpc) · 52 tests
+</td>
+</tr>
+</table>
 
 ---
 
-## Current Work — bVan! Systems
+## Inside the workshop
 
-**Practical Intelligence. Better Systems.**
+Smaller builds, experiments and creative work. Most of these live on [bvansystems.com](https://bvansystems.com/creations).
 
-bVan! focuses on identifying operational friction and designing practical systems to improve how work moves through a business.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://bvansystems.com/seance-switchboard"><img src="assets/seance-switchboard.gif" alt="Séance Switchboard: patch cables go into sockets, the oscilloscope picks up a signal, and a ghostly face breaks through the screen" width="100%"></a>
 
-> **Bring us the problem.**
+**[Séance Switchboard](https://bvansystems.com/seance-switchboard)**: operate a haunted communications machine, and slowly lose control of it. Interactive Rive piece, Halloween challenge entry. [Play it →](https://bvansystems.com/seance-switchboard)
+</td>
+<td width="50%" valign="top">
+<a href="https://bvansystems.com/haunted-marionette"><img src="assets/haunted-marionette.gif" alt="Haunted Marionette: a wooden puppet on strings in a candlelit box stage, moving more and more on its own" width="100%"></a>
 
-Understand what is actually happening before deciding what technology belongs in the solution.
+**[Haunted Marionette](https://bvansystems.com/haunted-marionette)**: a puppet that learns from you, until it no longer needs the strings. Rive character animation. [Play it →](https://bvansystems.com/haunted-marionette)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://bvansystems.com/media-deck"><img src="assets/media-deck.webp" alt="Media Deck MD-1 fully expanded, with VU meters and a five-band equalizer above the playback controls" width="100%"></a>
+
+**[Media Deck MD-1](https://bvansystems.com/media-deck)**: a retro-futuristic skin for the Video.js player, a hi-fi monitor that powers on with a CRT glow.
+</td>
+<td width="50%" valign="top">
+<a href="https://www.amazon.com/dp/B0HHYP413S"><img src="assets/pool-owners-field-guide.webp" alt="Cover of the Pool Owner's Field Guide" width="100%"></a>
+
+**[Pool Owner's Field Guide](https://www.amazon.com/dp/B0HHYP413S)**: a published series of practical guides for real pool owners.
+</td>
+</tr>
+</table>
+
+Also on the bench:
+
+- **Poe**: a personal AI partner that keeps context over time and coordinates the specialised agents around it. Private, in development.
+- **Market Scout**: a reusable research workflow for jobs, competitions and market opportunities. Internal.
+- **[Raven Six films](https://bvansystems.com/ravensix#portfolio)**: short competition films and spec spots, including *The Unfolding* and *The Emberline Archive*.
 
 ---
 
-## Background
+## Under the hood
 
-Before moving into applied AI systems, I spent more than two decades working in technical and operational environments including:
+For the engineers. These write-ups explain the architecture the working demos are built on.
 
-- U.S. Army UH-60 Black Hawk maintenance and crew operations
-- emergency medical services and firefighting
-- technical field service
-- equipment diagnostics and repair
-- commercial facility maintenance
-- customer-facing service operations
+| Repository | What it covers |
+| --- | --- |
+| [AI Operations Situation Model](https://github.com/bVan566/ai-operations-situation-model) | The state model behind the Situation Model demo: five attention states, authority separate from priority, terminal conditions, reconciliation. |
+| [Multi-Agent Operations Architecture](https://github.com/bVan566/multi-agent-operations-architecture) | Specialised AI roles with explicit responsibilities, bounded authority, defined handoffs and human escalation. |
+| [Human-in-the-Loop AI Production Pipeline](https://github.com/bVan566/human-in-the-loop-ai-pipeline) | Production with independent QA, purposeful human approval, and verification that a release actually happened. |
 
-The technology changed. The underlying work did not:
-
-**Understand the system. Find what isn't working. Determine why. Fix it without creating another problem.**
+The thread running through all of it: **use AI where interpretation or generation adds value, and plain deterministic code where rules, authority and reliability matter more.**
 
 ---
 
 ## Connect
 
-**Website:** [bvansystems.com](https://bvansystems.com)  
-**GitHub:** [github.com/bVan566](https://github.com/bVan566)
+**[bvansystems.com](https://bvansystems.com)** is the full workshop: every creation, demo and film in one place.
+**[Raven Six Creative](https://bvansystems.com/ravensix)** is where the creative production work lives.
 
----
-
-*AI should not make a system harder to understand. It should help the system work better.*
+*bVan! — Organized Chaos.*
