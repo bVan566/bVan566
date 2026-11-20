@@ -72,7 +72,7 @@ Smaller builds, experiments and creative work. Most of these live on [bvansystem
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://bvansystems.com/media-deck"><img src="assets/media-deck.webp" alt="Media Deck MD-1 fully expanded, with VU meters and a five-band equalizer above the playback controls" width="100%"></a>
+<a href="https://bvansystems.com/media-deck"><img src="assets/media-deck-controls.png" alt="Media Deck MD-1 controls: analog left and right VU meters, a five-band equalizer and the transport bar" width="100%"></a>
 
 **[Media Deck MD-1](https://bvansystems.com/media-deck)**: a retro-futuristic skin for the Video.js player, a hi-fi monitor that powers on with a CRT glow.
 </td>
